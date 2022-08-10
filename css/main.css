@@ -1,0 +1,293 @@
+@import url("fonts/Gelion Regular.ttf")
+
+@font-face {
+font-family: "Gelion";
+src: url("fonts/Gelion Regular.ttf");
+}
+@font-face {
+font-family: "Monument";
+src: url("fonts/Monument Extended.otf");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a{text-decoration: none;}
+body {
+    width: 100%;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+} 
+body{
+        cursor: url("afbeeldingen/ijcursorklein.png"), default;
+        background-color: #006BD1;
+      
+    }
+ a:hover{cursor: url("afbeeldingen/ijcursorklein.png"), default}
+ a:pointer{cursor: url("afbeeldingen/ijcursorklein.png"), default}
+ul {
+	font-size:20px;
+	list-style-type: none;
+	overflow: hidden;
+	position: fixed;
+	color: white;
+	text-align: center;
+	margin-top: 140px;
+	}
+
+.navbar{
+	font-family: 'Gelion', sans-serif;
+	font-weight:normal;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+line-height: 1.8;
+color: white;
+	position: fixed;
+	margin-left: 0px;
+}
+
+p{
+font-family: 'Gelion', sans-serif;
+font-weight: normal;
+font-size: 20px;
+color: white;
+}
+
+h1{
+	font-family: 'Gelion', sans-serif;
+	font-weight:normal;
+}
+
+h2{
+	font-family: Monument;
+	font-weight: normal;
+	color: white;
+	font-size: 60px;
+	line-height: 20px;
+}
+
+h3{
+	font-family: Monument;
+	font-weight: normal;
+	color: #00A0FF;
+	font-size: 30px;
+	line-height: 15px;
+	text-align: right;
+
+}
+
+h4{
+	font-family: Monument;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 20px;
+	text-align: center;
+}
+
+h5{
+	margin-top: 17px;
+	font-family: Monument;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: #56423D;
+}
+
+.textbox2{
+	justify-content: right;
+	margin-top: 70px;
+}
+
+a:link {color:white;}
+a:visited {color: white;}
+a:hover {color: #FF0000}
+a:active{color: #FF0000}
+
+.header {
+display:  flex;
+justify-content: space-between;
+align-items: baseline;
+position: fixed;
+height: 100px;
+
+}
+
+}
+.top-left {
+margin-left: 20px;
+	
+}
+
+.wrapper {
+margin-left: 240px;
+margin-top: 50px;
+}
+
+#mainbox2 {
+	display:  flex;
+	margin-top: 0px;
+	flex-flow:  row wrap;
+		justify-content: space-around;
+		align-items: center;
+	height: 100vh;
+}
+
+.introkat{
+	float: right;
+justify-content: right;
+width: 250px;
+}
+
+.motiondesignillustration{
+	font-size: 30px;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.motiondesign{
+	border-radius: 80px;
+	border: 2px solid white;
+	padding: 20px;
+}
+
+
+.illustration{
+	border-radius: 80px;
+	border: 2px solid white;
+	padding: 20px;
+}
+
+.intro {
+	width: 50vw;
+	white-space: nowrap
+}
+
+.mainbox {
+	margin-left: 0px;
+	display:  flex;
+	justify-content: space-around;
+	flex-flow:  row wrap;
+	align-content: center;
+	
+}
+
+#deel2{
+	height: 1200px;
+	background-color: #56423D;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#deel3{
+	background-color: #1D1D1D
+}
+
+.reel video{
+width: 73%;
+}
+
+.reel{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#deel4{
+	background-color: #006BD1;
+	height: 100vh;
+}
+
+.box1 video{
+width: 100%;
+max-height: 350px;
+display: flex;
+justify-content: center;
+align-items: left;
+margin: 1rem;
+padding: 0px;
+}
+
+.box1 img{
+	max-height: 350px;
+	display: flex;
+	justify-content: center;
+	align-items: left;
+	margin: 1rem;
+	padding: 0px;
+	}
+
+.aboutmetext{
+	margin-left: 240px;
+	max-width: 600px;
+}
+
+.aboutme{
+display: flex;
+}
+
+.socials{
+	display: flex;
+	align-items: right;
+	justify-content: right;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-bottom: 10px;
+	margin-left: 30px;
+		margin-top: 9px;
+	font-family: Monument;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: #56423D;
+}
+
+footer{
+	display: flex;
+	height:  50px;
+	background-color: #FF0000;
+	justify-content: center;
+}
+
+.logorobot{
+	position: absolute;
+	z-index: 10;
+	margin-left: 13px;
+	margin-top: -7px;
+}
+
+.alles{
+}
+
+@media screen and (min-width: 675px) {
+
+.header {
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+	margin-top: 17px;
+	z-index: 10;
+}
+}
+@media not all and (min-resolution:.001dpcm) { 
+     @supports (-webkit-appearance:none) {
+       .box1 video{
+       		width: auto;
+					max-height: 350px;
+					display: flex;
+					justify-content: center;
+					align-items: left;
+					margin: 1rem;
+			}
+		}  
+  }
