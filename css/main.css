@@ -16,6 +16,7 @@ html {
 a{text-decoration: none;}
 body {
     width: 100%;
+	overflow-x: hidden
 }
 
 
