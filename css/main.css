@@ -70,7 +70,7 @@ h2{
 	font-family: Monument;
 	font-weight: normal;
 	color: white;
-	font-size: 60px;
+	font-size: calc(20px + 3vw);
 	line-height: 20px;
 }
 
@@ -78,7 +78,7 @@ h3{
 	font-family: Monument;
 	font-weight: normal;
 	color: #00A0FF;
-	font-size: 30px;
+	font-size: calc(5px + 2vw);
 	line-height: 15px;
 	text-align: right;
 
@@ -87,7 +87,7 @@ h3{
 h4{
 	font-family: Monument;
 	font-weight: normal;
-	font-size: 40px;
+	font-size: calc(10px + 2vw);
 	line-height: 20px;
 	text-align: center;
 }
@@ -101,6 +101,16 @@ h5{
 	text-align: center;
 	color: #56423D;
 }
+
+h6{
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+	font-family: Monument;
+	font-weight: normal;
+	color: white;
+	font-size: calc(5px + 2vw);
+}
+
 
 .textbox2{
 	justify-content: right;
@@ -118,6 +128,8 @@ justify-content: space-between;
 align-items: baseline;
 position: fixed;
 height: 100px;
+margin-left: 35px;
+margin-top: 35px;
 
 }
 
@@ -144,12 +156,12 @@ margin-top: 50px;
 .introkat{
 	float: right;
 justify-content: right;
-width: 250px;
+width: calc(200px + 5vw);
 }
 
 .motiondesignillustration{
-	font-size: 30px;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	
 }
@@ -242,7 +254,6 @@ display: flex;
 
 .socials{
 	display: flex;
-	align-items: right;
 	justify-content: right;
 	flex-direction: column;
 	align-items: flex-start;
@@ -275,16 +286,39 @@ footer{
 	width: 100vw;
 }
 
-@media screen and (min-width: 675px) {
+@media screen and (max-width: 830px) {
 
-.header {
-	display: flex;
-	flex-direction: column;
-	margin-left: 20px;
-	margin-top: 17px;
-	z-index: 10;
+	.header{
+		margin-left: 0px;
+		margin-top: 0px;
+	}
+
+	.intro{
+		width: 70vw;
+	}
+
+	.mainbox2 {
+		display: flex;
+	}
+
+	.wrapper{
+		margin-left: 0;
+	}
+
+	.aboutmetext{
+		margin-left: 5vw;
+	}
+
+	ul{
+		display: none;
+	}
+
+h4{
+	font-size: calc(20px + 2vw);
 }
-}
+
+	}
+
 @media not all and (min-resolution:.001dpcm) { 
      @supports (-webkit-appearance:none) {
        .box1 video{
@@ -296,4 +330,24 @@ footer{
 					margin: 1rem;
 			}
 		}  
+  }
+
+
+
+  @media screen and (max-width: 550px) {
+	.logorobot{
+		width: 30vw;
+	}
+
+.introkat{
+	width: 60vw
+}
+
+.intro{
+	white-space: normal;
+}
+
+	p{
+		font-size: 18px;
+	}
   }
