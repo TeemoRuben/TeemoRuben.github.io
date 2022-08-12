@@ -43,7 +43,7 @@ ul {
 	}
 
 .navbar{
-	font-family: 'Gelion', sans-serif;
+	font-family: 'Conv_Gelion Regular', sans-serif;
 	font-weight:normal;
 	font-size: 20px;
 	color: white;
@@ -331,6 +331,7 @@ h4{
 			}
 		}  
   }
+<<<<<<< HEAD
 
 
 
@@ -351,3 +352,5 @@ h4{
 		font-size: 18px;
 	}
   }
+=======
+>>>>>>> 7f368bae7c0233875a00a43147ce7ae7182a9602
