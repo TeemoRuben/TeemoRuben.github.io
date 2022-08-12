@@ -1,8 +1,9 @@
-@import url("fonts/Gelion Regular.ttf")
-
 @font-face {
-font-family: "Gelion";
-src: url("fonts/Gelion Regular.ttf");
+	font-family: 'Conv_Gelion Regular';
+	src: url('fonts/Gelion Regular.eot');
+	src: local('☺'), url('fonts/Gelion Regular.woff') format('woff'), url('fonts/Gelion Regular.ttf') format('truetype'), url('fonts/Gelion Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 @font-face {
 font-family: "Monument";
@@ -16,7 +17,7 @@ html {
 a{text-decoration: none;}
 body {
     width: 100%;
-	overflow-x: hidden
+	overflow-x: hidden;
 }
 
 
@@ -54,14 +55,14 @@ color: white;
 }
 
 p{
-font-family: 'Gelion', sans-serif;
+font-family: 'Conv_Gelion Regular',sans-serif;
 font-weight: normal;
 font-size: 20px;
 color: white;
 }
 
 h1{
-	font-family: 'Gelion', sans-serif;
+	font-family: 'Conv_Gelion Regular',sans-serif;
 	font-weight:normal;
 }
 
@@ -181,6 +182,7 @@ width: 250px;
 }
 
 #deel2{
+	width:100vw;
 	height: 1200px;
 	background-color: #56423D;
 	display: flex;
@@ -189,6 +191,7 @@ width: 250px;
 }
 
 #deel3{
+	width:100vw;
 	background-color: #1D1D1D
 }
 
@@ -204,6 +207,7 @@ width: 73%;
 }
 
 #deel4{
+	width:100vw;
 	background-color: #006BD1;
 	height: 100vh;
 }
@@ -268,6 +272,7 @@ footer{
 }
 
 .alles{
+	width: 100vw;
 }
 
 @media screen and (min-width: 675px) {
