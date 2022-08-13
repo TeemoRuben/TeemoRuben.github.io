@@ -43,7 +43,7 @@ ul {
 	}
 
 .navbar{
-	font-family: 'Conv_Gelion Regular', sans-serif;
+	font-family: 'Gelion', sans-serif;
 	font-weight:normal;
 	font-size: 20px;
 	color: white;
@@ -78,9 +78,8 @@ h3{
 	font-family: Monument;
 	font-weight: normal;
 	color: #00A0FF;
-	font-size: calc(5px + 2vw);
+	font-size: calc(5px + 1.7vw);
 	line-height: 15px;
-	text-align: right;
 
 }
 
@@ -96,7 +95,7 @@ h5{
 	margin-top: 17px;
 	font-family: Monument;
 	font-weight: normal;
-	font-size: 20px;
+	font-size: calc(10px + 1vw);
 	line-height: 20px;
 	text-align: center;
 	color: #56423D;
@@ -207,8 +206,8 @@ width: calc(200px + 5vw);
 	background-color: #1D1D1D
 }
 
-.reel video{
-width: 73%;
+.iframe{
+
 }
 
 .reel{
@@ -289,8 +288,12 @@ footer{
 @media screen and (max-width: 830px) {
 
 	.header{
+		z-index: 10;
 		margin-left: 0px;
 		margin-top: 0px;
+		filter: drop-shadow(0 0.2rem 0.2rem black);
+
+    
 	}
 
 	.intro{
@@ -313,8 +316,17 @@ footer{
 		display: none;
 	}
 
+	.aboutme {
+		margin-right: 2vw;
+		padding-bottom: 100px;
+	}
+
 h4{
 	font-size: calc(20px + 2vw);
+}
+
+h5{
+	font-size: 2vw
 }
 
 	}
@@ -322,16 +334,14 @@ h4{
 @media not all and (min-resolution:.001dpcm) { 
      @supports (-webkit-appearance:none) {
        .box1 video{
-       		width: auto;
+					width: 80%;
 					max-height: 350px;
 					display: flex;
 					justify-content: center;
-					align-items: left;
 					margin: 1rem;
 			}
 		}  
   }
-<<<<<<< HEAD
 
 
 
@@ -340,17 +350,37 @@ h4{
 		width: 30vw;
 	}
 
+	.box1 video{
+		width: 80%;
+	}
+
+.box1 img{
+	width:80%
+}
+
 .introkat{
 	width: 60vw
 }
 
+#deel4{
+	height: auto;
+}
+
 .intro{
 	white-space: normal;
+	text-align: center ;
 }
 
 	p{
 		font-size: 18px;
 	}
+
+.aboutme{
+	flex-direction: column;
+}
+
+h5{
+	font-size: 3vw;
+}
+
   }
-=======
->>>>>>> 7f368bae7c0233875a00a43147ce7ae7182a9602
