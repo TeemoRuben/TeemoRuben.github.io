@@ -43,7 +43,7 @@ ul {
 	}
 
 .navbar{
-	font-family: 'Gelion', sans-serif;
+	font-family: 'Conv_Gelion Regular', sans-serif;
 	font-weight:normal;
 	font-size: 20px;
 	color: white;
@@ -112,7 +112,6 @@ h6{
 
 
 .textbox2{
-	justify-content: right;
 	margin-top: 70px;
 }
 
@@ -374,6 +373,10 @@ h5{
 	p{
 		font-size: 18px;
 	}
+
+.motiondesignillustration{
+	justify-content: center;
+}
 
 .aboutme{
 	flex-direction: column;
